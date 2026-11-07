@@ -37,7 +37,7 @@
 ```
 Mamehinata — Yes Steve Model 模型包
 原作作者：是Reme（https://space.bilibili.com/3546650257656003）
-原作品以 CC BY 授权，本仓库以 CC BY 4.0 发布：<本仓库链接>
+原作品以 CC BY 授权，本仓库以 CC BY 4.0 发布：https://github.com/linxiting890/YSM-Mamehinata
 许可证全文：https://creativecommons.org/licenses/by/4.0/legalcode
 修改说明：仅做仓储整理（清理 .DS_Store、重命名作者头像文件并同步 ysm.json 引用、补充文档），未改动模型 / 动画 / 贴图内容。
 ```

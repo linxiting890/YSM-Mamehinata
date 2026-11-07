@@ -125,7 +125,7 @@ Mamehinata 是一个面向 YSM 模组的玩家模型包，包含主模型、第�
 - **授权方式**：原作品声明为 **CC BY**（Creative Commons Attribution），本仓库据此以 **CC BY 4.0** 开源发布，并已获得原作者许可。
 - **本仓库的改动**：仅做仓储整理（清理 macOS `.DS_Store`、将作者头像 `微信图片_20260804192555_14_12.jpg` 重命名为 `avatar/author-avatar.jpg` 并同步 `ysm.json` 引用、补充文档与 git 配置），**未修改任何模型 / 动画 / 贴图内容**。
 - **再分发要求**（CC BY 4.0）：署名原作者「是Reme」与本仓库链接、附许可证链接、注明是否修改。完整署名样例见 [ATTRIBUTION.md](ATTRIBUTION.md)。
-- **相关链接**：YSM 模组 [Modrinth](https://modrinth.com/mod/yes-steve-model) · 作者爱发电 [afdian.com/a/ysmmod](https://afdian.com/a/ysmmod)
+- **相关链接**：本仓库 [github.com/linxiting890/YSM-Mamehinata](https://github.com/linxiting890/YSM-Mamehinata) · YSM 模组 [Modrinth](https://modrinth.com/mod/yes-steve-model) · 作者爱发电 [afdian.com/a/ysmmod](https://afdian.com/a/ysmmod)
 
 ---
 

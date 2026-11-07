@@ -1,0 +1,257 @@
+{
+	"spec": 2,
+	"metadata": {
+		"name": "Mamehinata",
+		"tips": "Mamehinata",
+		"license": {
+			"type": "CC BY"
+		},
+		"authors": [
+			{
+				"name": "是Reme",
+				"role": "单人完成",
+				"avatar": "avatar/author-avatar.jpg",
+				"contact": {
+					"Bilibili UID": "3546650257656003"
+				},
+				"comment": "喵喵喵喵喵~"
+			}
+		],
+		"link": {
+			"home": "https://modrinth.com/mod/yes-steve-model",
+			"donate": "https://afdian.com/a/ysmmod"
+		}
+	},
+	"properties": {
+		"height_scale": 0.7,
+		"width_scale": 0.7,
+		"extra_animation": {
+			"外观": "#外观",
+			"表情": "#表情",
+			"#舞蹈": "舞蹈",
+			"#基础动作": "基础动作",
+			"#坐下": "坐下"
+		},
+		"extra_animation_buttons": [
+			{
+				"id": "外观",
+				"name": "外观",
+				"config_forms": [
+					{
+						"type": "range",
+						"title": "高人来了",
+						"description": "高人来了",
+						"value": "v.g",
+						"min": -1,
+						"max": 2,
+						"step": 0.1
+					},
+					{
+						"type": "range",
+						"title": "宽人来了",
+						"description": "宽人来了",
+						"value": "v.k",
+						"step": 0.1,
+						"min": -1,
+						"max": 2
+					},
+					{
+						"type": "range",
+						"title": "平人来了",
+						"description": "平人来了",
+						"value": "v.p",
+						"min": -1,
+						"max": 2,
+						"step": 0.1
+					},
+					{
+						"type": "range",
+						"title": "头部大小",
+						"description": "头部大小",
+						"value": "v.tbdx",
+						"step": 0.1,
+						"min": -0.3,
+						"max": 1
+					},
+					{
+						"type": "checkbox",
+						"title": "鞋子",
+						"description": "鞋子",
+						"value": "v.xzx"
+					},
+					{
+						"type": "checkbox",
+						"title": "帽子",
+						"description": "帽子",
+						"value": "v.mzx"
+					},
+					{
+						"type": "checkbox",
+						"title": "挎包",
+						"description": "挎包",
+						"value": "v.kbx"
+					},
+					{
+						"type": "checkbox",
+						"title": "耷拉耳朵",
+						"description": "耷拉耳朵",
+						"value": "v.ed"
+					}
+				]
+			},
+			{
+				"id": "表情",
+				"name": "表情",
+				"config_forms": [
+					{
+						"type": "radio",
+						"title": "眼睛",
+						"description": "眼睛",
+						"value": "v.yjx",
+						"labels": {
+							"默认": "v.yjx=0",
+							"生气": "v.yjx=1",
+							"哭哭": "v.yjx=2",
+							">   <": "v.yjx=3",
+							"O   O": "v.yjx=4",
+							"闭眼": "v.yjx=5"
+						}
+					},
+					{
+						"type": "radio",
+						"title": "嘴",
+						"description": "嘴",
+						"value": "v.zmr",
+						"labels": {
+							"默认": "v.zmr=1",
+							"微张": "v.zmr=2",
+							"倒V嘴": "v.zmr=3",
+							"猫猫嘴": "v.zmr=4",
+							"一字嘴": "v.zmr=5",
+							"V字嘴": "v.zmr=6",
+							"X字嘴": "v.zmr=7",
+							"歪嘴": "v.zmr=8",
+							"张开": "v.zmr=9"
+						}
+					},
+					{
+						"type": "radio",
+						"title": "脸色",
+						"description": "脸色",
+						"value": "v.lsx",
+						"labels": {
+							"默认": "v.lsx=0",
+							"脸红": "v.lsx=1",
+							"脸黑": "v.lsx=2"
+						}
+					}
+				]
+			}
+		],
+		"preview_animation": "gui",
+		"disable_preview_rotation": true,
+		"gui_no_lighting": false,
+		"gui_foreground": "textures/gui/foreground.png",
+		"gui_background": "textures/gui/background.png",
+		"default_texture": "default",
+		"render_layers_first": false,
+		"free": false,
+		"all_cutout": false,
+		"extra_animation_classify": [
+			{
+				"id": "基础动作",
+				"extra_animation": {
+					"gz1": "鼓掌",
+					"dzh1": "打招呼",
+					"xi1": "行",
+					"f1": "否",
+					"hy1": "耶好",
+					"yby1": "御笔摇"
+				}
+			},
+			{
+				"id": "坐下",
+				"extra_animation": {
+					"zx1": "坐下1",
+					"zx2": "坐下2",
+					"zx3": "坐下3",
+					"zx4": "坐下4",
+					"zx5": "坐下5",
+					"zx6": "坐下6",
+					"zx7": "随地大小睡",
+					"zx8": "坐在边缘"
+				}
+			},
+			{
+				"id": "舞蹈",
+				"extra_animation": {
+					"tw1": "萝莉摇",
+					"tw2": "鹿乃子虎视眈眈",
+					"tw3": "催眠术",
+					"tw4": "星辉闪耀",
+					"tw5": "橙色正义",
+					"tw6": "互联网过度依存",
+					"tw7": "摇啊摇",
+					"tw8": "摇摇乐",
+					"tw9": "开车车",
+					"tw10": "致命公司摇",
+					"tw11": "快远离互联网",
+					"tw12": "alice didida",
+					"tw13": "谎言舞者",
+					"tw14": "低皮质醇"
+				}
+			}
+		]
+	},
+	"files": {
+		"player": {
+			"model": {
+				"main": "models/main.json",
+				"arm": "models/arm.json"
+			},
+			"animation": {
+				"main": "animations/main.animation.json",
+				"extra": "animations/extra.animation.json"
+			},
+			"texture": [
+				{
+					"uv": "textures/default.png"
+				}
+			]
+		},
+		"projectiles": [
+			{
+				"match": ["minecraft:arrow"],
+				"model": "models/arrow.json",
+				"animation": "animations/arrow.animation.json",
+				"texture": {
+					"uv": "textures/arrow.png"
+				}
+			},
+			{
+				"match": ["minecraft:fishing_bobber"],
+				"model": "models/fishing_bobber.json",
+				"texture": {
+					"uv": "textures/fishing_bobber.png"
+				}
+			}
+		],
+		"vehicles": [
+			{
+				"match": ["minecraft:boat"],
+				"model": "models/boat.json",
+				"animation": "animations/boat.animation.json",
+				"texture": {
+					"uv": "textures/boat.png"
+				}
+			},
+			{
+				"match": ["minecraft:minecart"],
+				"model": "models/minecart.json",
+				"texture": {
+					"uv": "textures/minecart.png"
+				}
+			}
+		]
+	}
+}
